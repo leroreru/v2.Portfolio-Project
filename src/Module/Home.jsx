@@ -104,7 +104,7 @@ const Home = () => {
                     <p className='mt-2 leading-[1.8] md:leading-loose text-darkMode lg:max-w-3xl'>My Network skills</p>
                 </div>
                 <div className='bg-gradient-to-r from-blue-400 to-purple-600 relative flex flex-1 flex-col gap-2 rounded-lg p-[2px]  mt-4 '>
-                    <div className='h-full w-full rounded-lg bg-white dark:bg-black transition-all duration-200 p-4 items-center grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-x-9   '>
+                    <div className=' w-full rounded-lg bg-white dark:bg-black transition-all duration-200 p-4 items-center grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-x-9  '>
                         {skills.map((data) =>
                             <div className='items-center justify-between'>
                                 <label className='font-semibold text-darkMode'>{data.namaSkill}</label>
